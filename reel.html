@@ -1,0 +1,330 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+
+    <link href='style.css' rel='stylesheet'> 
+
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+
+
+    <style>
+    /* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  /*overflow: hidden;*/
+  position: relative;
+}
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  /*background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+  background-image: url('images/broadway1.jpg');
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;*/
+  background-color: black;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+    </style>
+ </head>
+  <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src="app.js"></script> -->
+<script>
+var main = function() {
+  /* Push the body and the nav over by 285px over */
+  $('.icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
+};
+$(document).ready(main);
+
+</script>
+
+    <div class="menu">
+      
+      <!-- Menu X icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+<!--         <li><a href="index.html">Home</a></li>
+ -->    <li><a href="index.html">About</a></li>
+        <li><a href="reel.html">Reel</a></li>
+        <li><a href="mailto:hollabackmerle@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Main body -->
+    <div class="jumbotron">
+
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </div>
+    <!--videos-->
+  
+
+
+    <div class="jumbotron1">
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">Lightning In A Bottle "Own It"</h3>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/127895792" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">Lightning In A Bottle "The Time Is Coming"</h3>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/127895785" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>     <!-- <new videos above> -->
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"Hollywood Hitmen" Scene 5</h3>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/112235444" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div><center><p style="color:#FFF;">Password: HHM</p></center>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"Going Pro" Reality Series Sizzle Reel</h3>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/109384422" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">Airplane Factory "Iron Temple</h3>
+     <br>
+    <br>
+    <br>
+     <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/119310476" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"Hollywood Hitmen" Scene 10 (Action Comedy)</h3>
+     <br>
+    <br>
+    <br>
+     <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/120024644" frameborder="0" width="500" height="281"></iframe>
+            </div></div><center><p style="color:#FFF;">Password: HHM</p></center>
+          </div> 
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">The Veem App</h3>
+      <br>
+    <br>
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/112816926" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">Airplane Factory "Black Box"</h3>
+      <br>
+    <br>
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/119312721" frameborder="0" width="500" height="281"></iframe>
+            </div> 
+          </div>
+        </div>
+      </div>
+    <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"The Party" - Comedy Dinner Scene</h3>
+    <br>
+    <br>
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/111074285" frameborder="0" width="500" height="281"></iframe>
+            <br>
+           <br>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">Susannah</h3>
+        <br>
+    <br>
+    <br>
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+              <iframe allowfullscreen="" src="http://player.vimeo.com/video/110432935" frameborder="0" width="500" height="281"></iframe>
+              <br>
+             <br>
+              </div> 
+            </div>
+          </div>
+        </div>
+<!--New videos 4/18/2016-->
+ <br>
+    <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"The Airplane Factory "Sling 2: Building A Dream" 1 Year: 1000 Hours in 5 Minutes"</h3>
+    <br>
+    <br>
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://player.vimeo.com/video/124083710" frameborder="0" width="500" height="281"></iframe>
+            <br>
+           <br>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <br><h3 style="margin: 0 auto;text-align:center; color: #2EBED8; font-size:30px; font-family: 'Open Sans', sans-serif; font-weight:100;">"Hollywood Hitmen" Scene 9</h3>
+        <br>
+    <br>
+    <br>
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+              <iframe allowfullscreen="" src="http://player.vimeo.com/video/111371326" frameborder="0" width="500" height="281"></iframe>
+              <br>
+             </div><center><p style="color:#FFF;">Password: HHM</p></center>
+    </div>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href='style.css' rel='stylesheet'> -->
+    <style>
+    /* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+h1, {
+  margin-left: 150px;
+  color:white;
+  text-shadow: 0 0 6px rgba(0,0,0,0.78);
+}
+
+h2, h3{
+  color:white;
+  text-shadow: 0 0 6px rgba(0,0,0,0.78);
+
+}
+.jumbotron h1{
+  color:white;
+  margin-left: 150px;
+}
+p{
+  color:white;
+}
+a{
+  color:#FD9D00;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+
+}
+#col-lg-9 .col-md-8 .col-sm-8 .p{
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  /*background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); */
+  background-image: url('images/broadway1.jpg');
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+    </style>
+ </head>
+  <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src="app.js"></script> -->
+<script>
+var main = function() {
+  /* Push the body and the nav over by 285px over */
+  $('.icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
+};
+$(document).ready(main);
+
+</script>
+
+    <div class="menu">
+      
+      <!-- Menu X icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+        <!-- <li><a href="#">Home</a></li> -->
+        <li><a href="reel.html">REEL</a></li>
+        <li><a href="resume.pdf" target="_blank">RESUME</li>
+        <li><a href="mailto:hollabackmerle@gmail.com">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/michaelmerlinpeck">Linkedin</a></li>
+      </ul>
+    </div>
+
+    <!-- Main body -->
+    <div class="jumbotron">
+
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </div>
+
+<div class="container homepage">
+        
+        <h1>Michael Merlin Peck</h1>
+        <hr>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                  <a href="#"><img src="images/merlin5.png" class="img-circle img-responsive"></a>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-8">
+                  <h2>&quotFilm editing is my love <br>and passion.&quot</h2>
+                  <!--<h3>Resume</h3>-->
+      <p></p>
+      <!--<p><a href="reel.htmlf" target="_blank">&quotREEL&quot.</a></p>
+      <p><a href="https://www.linkedin.com/in/michaelmerlinpeck">Linkedin</a></p>!-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>      
+
+  </body>
+</html>

@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "reel.html",
+			"settings":
+			{
+				"buffer_size": 10757,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Color Picker"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"help",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/index.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/reel.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/jquery_test.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/nav.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/modal_vimeo_test.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/smooth_scrolling.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/css/style_dabblet.css",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/js/app.js",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/index_dabblet.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/jquery_test",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/js/jquery-1.11.2.min.webarchive",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/style_dabblet.css",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/app.js",
+		"/Users/DavidMaybach/Documents/12 - iCode/merlins_site/style.css",
+		"/Users/DavidMaybach/Documents/12 - iCode/veem_about_2/js/scripts.js",
+		"/Users/DavidMaybach/Documents/12 - iCode/veem_about_2/css/animated.css",
+		"/Users/DavidMaybach/Documents/12 - iCode/udemy_javascript/Variable & Arrays.html",
+		"/Users/DavidMaybach/Documents/12 - iCode/udemy_javascript/<!Doctype html>",
+		"/Users/DavidMaybach/Documents/1- Veem/3 - Website /root/css/custom.css",
+		"/Users/DavidMaybach/Documents/1- Veem/3 - Website /root/index.html",
+		"/Users/DavidMaybach/Documents/1- Veem/3 - Website /root/css/style74.css",
+		"/Users/DavidMaybach/Documents/1- Veem/3 - Website /root/about_veem.html",
+		"/Users/DavidMaybach/Documents/1- Veem/3 - Website /root/css/about.css",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/index.html",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/css/style74.css",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/css/about.css",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/bounce.html",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/images/top_img.svg",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/css/bounce.css",
+		"/Users/DavidMaybach/Documents/Veem/3 - Website /root/test.html",
+		"/Users/DavidMaybach/Documents/iDevelop/David Maybach/style.css",
+		"/Users/DavidMaybach/Documents/iDevelop/David Maybach/index.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/css/style.css",
+		"/Users/DavidMaybach/Documents/iDevelop/David Maybach/Stylesheet_Codeacademy_Lesson.css",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/fundbar.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/landingpage71.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/css/fundbar-css.css",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/subscribe.php",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/index.html",
+		"/Users/DavidMaybach/Downloads/veem_lending_page/css/style.css",
+		"/Users/DavidMaybach/Downloads/veem_lending_page/index.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/landingpage2.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/css/veem-landing2.css",
+		"/Users/DavidMaybach/HTML-CSS/Codeacademy_Lesson.html",
+		"/Users/DavidMaybach/HTML-CSS/Stylesheet_Codeacademy_Lesson.css",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/analyticstracking.php",
+		"/Users/DavidMaybach/Documents/Veem/Website /popover/index.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/landingpage.html",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/css/app.css",
+		"/Users/DavidMaybach/Documents/Veem/Website /root/public_html/VeemLandingPage.html",
+		"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/DavidMaybach/Documents/Veem.it/root/public_html/css/app.css",
+		"/Users/DavidMaybach/Documents/Veem.it/root/public_html/index.html",
+		"/Users/DavidMaybach/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_css/main.css",
+		"/Users/DavidMaybach/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/index.htm",
+		"/Users/DavidMaybach/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_scripts/SpryTabbedPanels.js",
+		"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/ReadmePlease/ReadmePlease.py",
+		"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jumbo",
+			"pass",
+			"jumbotron",
+			"jumbotron p",
+			"jumbotron pp",
+			"jumbotrom p",
+			"jumbo",
+			"reel",
+			"menu",
+			"resume",
+			"merlin",
+			"linked",
+			"type",
+			"typed",
+			"fadeInDown",
+			"animated",
+			"animated fadeInDown",
+			"apple",
+			"#eee",
+			"30px",
+			".jumbo",
+			"cloud",
+			"indiegogo",
+			"on sale",
+			"google",
+			"font-siz",
+			"foot",
+			"made",
+			"position",
+			"google",
+			"analyy",
+			"ua-55",
+			"social",
+			"twitter",
+			"pricing_boxes",
+			"pricing",
+			"@media",
+			"image-over",
+			"sec",
+			"container",
+			"alt",
+			"header",
+			"features",
+			"sec",
+			"header",
+			"features",
+			"h2",
+			"twitt",
+			"container",
+			"subsc",
+			"$1",
+			"$",
+			"favicon",
+			"fr",
+			"bottom",
+			"bottom_img",
+			"fr bottom_img",
+			".top",
+			".top_",
+			"top_",
+			"top",
+			"bottom",
+			"bottom_img",
+			"fr bottom_img",
+			"space60",
+			"top_head",
+			"top_hea",
+			"container",
+			"top_img",
+			"falling_phone-play-",
+			"top_img",
+			"header",
+			"img_top",
+			"ima_top",
+			"g111",
+			"\"slider",
+			"crsl",
+			"slider1",
+			"slider",
+			"gif",
+			"no ads",
+			".righ",
+			"righ",
+			"pri",
+			".pri",
+			"pri",
+			"pric",
+			"pricn",
+			"h5",
+			"pric",
+			"pricing",
+			"price",
+			"logo",
+			"fff",
+			"animation",
+			"iphone6",
+			".iphone6",
+			"iphone6",
+			"iphone",
+			".mi",
+			".middl",
+			".middle",
+			"#middle",
+			"middle",
+			"video",
+			"#video",
+			"video",
+			"iphone 6",
+			"middle",
+			"video",
+			"wrapper",
+			"features",
+			"facebook",
+			"youtube",
+			"tumblr",
+			"twitter",
+			"screenshots",
+			";\n",
+			"screenshots",
+			"logo",
+			"signup",
+			"sign",
+			"hamburger",
+			"hemburger",
+			"woala",
+			"signup",
+			"g111",
+			"g11"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hamburger",
+			"vio-la"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "reel.html",
+					"settings":
+					{
+						"buffer_size": 10757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3707,
+								3707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2272.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"top",
+				"images/top_img.svg"
+			],
+			[
+				"app",
+				"root/public_html/css/app.css"
+			],
+			[
+				"packa",
+				"/Users/DavidMaybach/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+			],
+			[
+				"in",
+				"Exercise Files/roux_website/index.htm"
+			],
+			[
+				"css",
+				"Exercise Files/roux_website/_css/main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true
+}
